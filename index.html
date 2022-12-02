@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/20b6197d52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- nav -->
+
+    <nav class="nav-bar">
+        <h2 class="logo-h"><a href="#home" class="logo-h"><span class="hw">I</a></span>irqif</h2>
+        <ul class="menu" id="menu-nav">
+            <li class="nav-link"><a href="#home" class="nav-item">Home</a></li>
+            <li class="nav-link"><a href="#about" class="nav-item">About</a></li>
+            <li class="nav-link"><a href="#skills" class="nav-item">Skills</a></li>
+            <!-- <li class="nav-link"><a href="#project" class="nav-item">Project</a></li> -->
+        </ul>
+    </nav>
+
+<!-- home -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h4>Hello, my name is<br><span class="nama">Muhammad Fiqri</span></h4>
+        <h3 class="ehe"></h3>
+            <form>
+                <a href="https://www.instagram.com/iirqif_20/" class="instagram" target="_blank"> Instagram </a>
+            </form>
+    </div>
+    <div class="foto">
+        <img src="undraw_Hiking_re_k0bc.png" alt="">
+    </div>
+</section>
+
+<!-- About -->
+
+<div id="about" id="about">
+    <div class="countainer">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="undraw_Hiking_re_k0bc.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hallo nama saya Muhammad Fiqri saya bersekolah di <a href="https://smkmadinatulquran.sch.id/" target="_blank" class="smk">SMK MADINATUL QURAN,</a>
+                saya belajar membuat website portofolio ini adalah projek pertama saya dan saya akan mengembangkannya dengan seiring berjalannya waktu.Dan saya belejar
+                membuat website seperti ini di <a href="https://www.youtube.com/results?search_query=wpu" target="_blank" class="w">WEB PROGRAMING UNPAS</a> dan <a href="https://skilvul.com/" target="_blank" class="s">SKILVUL</a>.Dan saya membuat website
+                portofolio ini menggunakan <a href="https://www.petanikode.com/tutorial/html/" target="_blank" class="H">HTML</a>,<a href="https://www.petanikode.com/tutorial/css/" target="_blank" class="c">CSS</a>,dan <a href="https://www.dicoding.com/blog/apa-itu-javascript-fungsi-dan-contohnya/" target="_blank" class="j">JAVASCRIPT</a>
+                , dan untuk memperbagus web ini saya menggunakan <a href="https://greensock.com/gsap/" target="_blank"  class="g">GSAP</a>.</p>   
+            </div>
+        </div>
+    </div>
+</div>
+<!-- skill -->
+<div class="skills">
+ <div class="My-skill" id="skills">
+        <h1>My Skills</h1>
+ </div>
+ <div class="content1">
+    <div class="foto-satu"><img src="download.jpg" height="100px">
+        <h3>HTML</h3>
+    </div>
+    <div class="foto-dua"><img src="download (1).jpg" height="100px">
+    <h3>CSS3</h3>
+    </div>
+    <div class="foto-tiga"><img src="Pengertian-JavaScript.png" height="100px">
+    <h3>JAVASCRIPT</h3>
+    </div>
+ </div>
+</div>
+<!-- contact me -->
+
+<div class="contact-me">
+    <p>Let Me Get Your A beautiful web</p>
+    <a href="" class="button-two">Hire me</a>
+</div>
+
+<!-- footer -->
+
+<footer>
+    <p>Muhammad Fiqri</p>
+    <p>Terima kasih telah mengunjungi website portofolio pribadi saya. Terhubung dengan saya melalui sosial. 
+        website ini terinspirasi oleh <br><a href="https://www.youtube.com/@tahmidahmed7387" target="_blank">@Tahmid Ahmed</a></p>
+    <div class="social">
+        <a href="https://www.instagram.com/iirqif_20/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p class="end">CopyRight By Muhammad Fiqri</p>
+</footer>
+
+
+
+
+<!-- javascript -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+<script>
+    gsap.from('.home', {duration: 1, x:-50, opacity: 0})
+    gsap.to('.ehe', {duration: 1.5,delay: 2, text:'I am a newbe Programer'})
+    gsap.from('#about', {duration: 1, y: '-10%', opacity: 0})
+</script>
+</body>
+</html>
